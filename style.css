@@ -194,6 +194,7 @@ nav-list ul h1{
 	object-fit: cover;
 	display: block;
 	position: relative;
+	z-index: -1;
 	
 }
 .container h1{
@@ -332,9 +333,7 @@ nav-list ul h1{
 
 /* Media Query Start */
 @media only screen and (min-width: 1025px) {
-	html{
-		
-	}
+	
 }
 @media only screen and (max-width: 1024px) {
 	#main5 .content{
