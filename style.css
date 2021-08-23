@@ -422,6 +422,13 @@ nav-list ul h1{
 		width: 100%;
 		
 	}
+	#headers{
+		height: 120px;
+		
+	}
+	.product-main1 li img {
+		z-index: -1000;
+	}
 	.icon{
 		right:10px;
 	}
