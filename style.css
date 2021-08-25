@@ -95,6 +95,7 @@ nav-list ul h1{
 	list-style: none;
 	margin-bottom: 10px;
 	padding-top: 20px;
+	margin-left: -20px;
 }
 .product-main1 ul li{
 	align-items: center;
@@ -106,6 +107,7 @@ nav-list ul h1{
 .main1-right img{
 	object-fit: cover;
 	display: block;
+	margin-left: -22px;
 }
 .img1{
 	width: 100%;
@@ -113,7 +115,7 @@ nav-list ul h1{
 .img1 img{
 	position: absolute;
 	left:150px;
-	top:100px;
+	top:0px;
 	height: 482px;
 	object-fit: cover;
 	z-index: -10;
@@ -139,7 +141,7 @@ nav-list ul h1{
 	color: #262930;
 }
 .bottom-main1{
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .bottom-main1 a{
 	font-size: 15px;
@@ -194,7 +196,7 @@ nav-list ul h1{
 	object-fit: cover;
 	display: block;
 	position: relative;
-	z-index: -1;
+	z-index: -1000;
 	
 }
 .container h1{
@@ -238,6 +240,7 @@ nav-list ul h1{
 #main4 .content h1{
 	font-size: 25px;
 	font-weight: normal;
+	margin-top: 40px;
 }
 #main4 .content p{
 	font-size: 18px;
@@ -333,7 +336,9 @@ nav-list ul h1{
 
 /* Media Query Start */
 @media only screen and (min-width: 1025px) {
-	
+	html{
+		
+	}
 }
 @media only screen and (max-width: 1024px) {
 	#main5 .content{
@@ -424,11 +429,7 @@ nav-list ul h1{
 	}
 	#headers{
 		height: 120px;
-		
-	}
-	.product-main1 li img {
-		z-index: -1000;
-	}
+	}	
 	.icon{
 		right:10px;
 	}
